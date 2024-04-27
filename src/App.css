@@ -1,0 +1,30 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.main{
+  /* background-image: url(/public/images/sunny.jpg); */
+  /* background-color: rgb(83, 209, 209); */
+  background-repeat: no-repeat;
+ 
+}
+
+.bg img {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  top: 0;
+  position: fixed;
+  
+
+}
+
+.drop-sm{
+  filter:drop-shadow(5px 5px 5px rgba(0,0,0,0.4)) ;
+}
+
+.png-white{
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(265deg) brightness(103%) contrast(101%)
+}
